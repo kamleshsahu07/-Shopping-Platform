@@ -1,0 +1,285 @@
+﻿body {
+  background: #f7f8fa;
+  color: #242424;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #f7f8fa;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  min-height: 50px;
+}
+
+.dashboard-main {
+  max-width: none;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.dashboard-hero,
+.admin-form-card {
+  max-width: 100%;
+}
+
+.dashboard-hero {
+  padding: 36px 36px 32px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(247,248,250,0.95) 100%);
+}
+
+.dashboard-hero .badge {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+.btn-group .btn {
+  min-width: 110px;
+  border-radius: 1rem;
+}
+
+.section-card {
+  margin-top: 1.5rem;
+}
+
+.admin-form-card {
+  padding: 0;
+  max-width: 980px;
+  width: 100%;
+}
+
+.admin-form-card .card-body {
+  padding: 2.5rem 2.5rem 2rem;
+}
+
+.admin-form-card .form-label {
+  color: #4b4b63;
+  font-weight: 700;
+}
+
+.admin-form-card .form-control,
+.admin-form-card .form-select,
+.admin-form-card textarea.form-control {
+  border-radius: 1rem;
+  min-height: 56px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.admin-form-card textarea.form-control {
+  min-height: 120px;
+}
+
+.admin-form-card .form-control:focus,
+.admin-form-card .form-select:focus {
+  border-color: rgba(255, 90, 95, 0.9);
+  box-shadow: 0 0 0 0.18rem rgba(255, 90, 95, 0.12);
+}
+
+.admin-form-card .btn {
+  min-width: 140px;
+}
+
+.admin-form-card .row.g-3 > .col-12,
+.admin-form-card .row.g-3 > .col-12.col-md-6 {
+  margin-bottom: 0.8rem;
+}
+
+.section-card {
+  margin: 0 auto;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-1px);
+}
+
+.navbar-brand {
+  letter-spacing: 0.08em;
+}
+
+.card {
+  border-radius: 1.7rem;
+}
+
+.card-header {
+  background: transparent;
+  padding: 1.5rem 2.25rem 0.75rem;
+}
+
+.section-card {
+  border-radius: 1.5rem;
+}
+
+.filter-row {
+  background: #ffffff;
+  padding: 1.5rem 1.5rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.filter-row .form-control,
+.filter-row .form-select {
+  border-radius: 1rem;
+  min-height: 60px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.filter-row .col-md-3,
+.filter-row .col-md-4 {
+  min-width: 260px;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid rgba(15, 23, 42, 0.12) !important;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 0.75rem;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.filter-row .form-control:focus,
+.filter-row .form-select:focus {
+  border-color: rgba(255, 90, 95, 0.9);
+  box-shadow: 0 0 0 0.15rem rgba(255, 90, 95, 0.12);
+}
+
+.form-label {
+  color: #5c5b6a;
+  font-weight: 600;
+}
+
+.section-card {
+  border-radius: 1.75rem;
+  overflow: hidden;
+}
+
+.section-card .card-body {
+  padding: 2rem 2.25rem 2rem;
+}
+
+.admin-form-card .card-body {
+  padding: 2rem 2.25rem;
+}
+
+.card.border-0 {
+  border: none !important;
+}
+
+.btn-outline-secondary,
+.btn-outline-secondary:hover {
+  border-radius: 999px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  padding: 0.75rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.table {
+  margin-bottom: 0;
+  border-collapse: separate;
+  border-spacing: 0 0.75rem;
+  min-width: 100%;
+}
+
+.table thead th {
+  border-bottom: none;
+  color: #4f4f5c;
+  font-weight: 700;
+  background: transparent;
+  letter-spacing: 0.01em;
+  padding: 1rem 0.9rem;
+}
+
+.table tbody tr {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.table tbody tr:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+  border: 0;
+  padding: 1rem 0.9rem;
+}
+
+.table-hover tbody tr:hover {
+  background: #f8f9fb;
+}
+
+.btn-outline-primary {
+  border-radius: 999px;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background-color: #ff5a5f;
+  border-color: #ff5a5f;
+}
+
+.btn-primary:hover {
+  background-color: #ff484c;
+  border-color: #ff484c;
+}
+
+.btn-outline-primary {
+  color: #ff5a5f;
+  border-color: #ff5a5f;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #ff5a5f;
+}
+
+.btn-outline-secondary {
+  border-radius: 999px;
+}
+
+.shadow-sm {
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06) !important;
+}
+
+.bg-light {
+  background-color: #f7f8fa !important;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+@media (max-width: 767px) {
+  .section-card {
+    border-radius: 1.25rem;
+  }
+}
